@@ -1,17 +1,36 @@
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
-*main -> assign a random number to the variabe n each time it is executed and print the la*st digit of the number stored in the variable n
-*Return : always 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int ch;
-	for (ch = 97; ch <=122; <h++)
-	{
-		putchar(ch);
-	}
-	putchar(10); /* this is an ascii code for new line*/
+	int i, s;
 
+	i = 48;
+	s = 48;
+
+	while (s < 58)
+	{
+		i = 48;
+		while (i < 58)
+		{
+			if (s != i && s < i)
+			{
+				putchar(s);
+				putchar(i);
+				if (i ==57 && s == 56)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+			i++;
+		}s++;
+	}
+	putchar('\n');
 	return (0);
 }
