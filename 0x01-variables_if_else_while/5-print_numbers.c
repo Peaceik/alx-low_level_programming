@@ -22,7 +22,7 @@ int main(void)
 					putchar(' ');
 					putchar((y) + '0');
 					putchar((z) + '0');
-					if (w ==9 && x == 9 && y == 9 && z == 9)
+					if (w == 9 && x == 9 && y == 9 && z == 9)
 						break;
 					putchar(',');
 					putchar(' ');
