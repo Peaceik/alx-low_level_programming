@@ -3,9 +3,9 @@
 /**
  * jack_bauer - print minute of the day
  *
- * Return: void
+ * Return: Always 0.
  */
-void 'jack_bauer'(void)
+void jack_bauer(void)
 {
 	int a, s, d, f;
 
