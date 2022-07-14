@@ -5,6 +5,7 @@ include "main.h"
  * @dest: destination
  * @src: source
  * @n: amount of bytes
+ *
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
