@@ -10,7 +10,7 @@
  * If no element matches, return -1
  * If size <= 0, return -1
  */
-int *int_index(int *array, int size, int (*cmp)(int))
+int *int_index(int *array, int_index size, int_index(*cmp)(int))
 {
 	int a;
 
