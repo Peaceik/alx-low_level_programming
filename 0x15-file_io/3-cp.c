@@ -6,6 +6,7 @@
  * @file_from: file from
  * @file_to: file_to
  * @argv: argument vector
+ *
  * Return: void
  */
 void error_file(int file_from, int file_to, char *argv[])
@@ -26,6 +27,7 @@ void error_file(int file_from, int file_to, char *argv[])
  * main - check code
  * @argc: number of argument
  * @argv: arguments of vector
+ *
  * Return: 0
  */
 int main(int argc, char *argv[])
