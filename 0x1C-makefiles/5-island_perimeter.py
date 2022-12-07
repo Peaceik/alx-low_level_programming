@@ -21,6 +21,6 @@ def island_perimeter(grid):
                 if (b - 1) == -1 or grid[a][b - 1] == 0:
                     pmeter += 1
                 if (b + 1) == ncoloumns or grid[a][b + 1] == 0:
-                    pmeter +=1
+                    pmeter += 1
 
     return pmeter
